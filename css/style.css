@@ -27,21 +27,15 @@
 
 
 .anima-galinha{
-  background-color: red;
   width: 80px;
   height: 80px;
    top:550px; /* 1120px */
   left: 20px;
   position: relative;
-  animation: anima-galinha2 8s  infinite;
+  animation: anima-galinha2 8s  infinite, anima-galinha 1s steps(6) infinite;
 }
 
-.galinha{
-  width: 80px;
-  height: 80px;
-  background: url("../img/galineas1.png") -5px 0px no-repeat;
-  animation: anima-galinha 1s steps(6) infinite;
-}
+
 
 @keyframes anima-galinha {
   from { background-position: 0px; }
@@ -52,59 +46,82 @@
 
 @keyframes anima-galinha2{
   0%{
+    background: url("../img/galineas1.png") -5px 0px no-repeat;
     top:550px; /* 1120px */
     left: 20px;
   }
   5%{
+    background: url("../img/galineas1.png") -5px 0px no-repeat;
     top:550px; /* 1120px */
     left: 160px;
-    z-index: 1;
 
   }10%{
-    top:490px; /* 1120px */
-    left: 160px;
-    z-index: 1;
-
+    background: url("../img/galineas1.png") -5px 0px no-repeat;
+    top:530px; /* 1120px */
+    left: 210px;
   }15%{
+    background: url("../img/galineas1.png") -5px 0px no-repeat;
     top:550px; /* 1120px */
-    left:280px;
-    z-index: 1;
-
+    left: 250px;
   }20%{
+    background: url("../img/galineas1.png") -5px 0px no-repeat;
     top:550px; /* 1120px */
-    left:850px;
-    z-index: 1;
-
+    left: 880px;
   }25%{
-    top:250px; /* 1120px */
-    left:850px;
-    z-index: 1;
-
-  }
-  30%{
-    top:250px; /* 1120px */
-    left:970px;
-    z-index: 1;
-
-    
-  }35%{
-    top:200px; /* 1120px */
-    left:970px;
-    z-index: -1;
-    
-    transform: scaleX(1);
-  }40%{
+    background: url("../img/galineas1.png") -5px 0px no-repeat;
     top:400px; /* 1120px */
-    left:970px;
+    left: 880px;
+  }30%{
+    background: url("../img/galineas1.png") -5px 0px no-repeat;
+    top:290px; /* 1120px */
+    left: 990px;
     z-index: 1;
-    transform: scaleX(-1);
-  }45%{
-    top:270px; /* 1120px */
-    left:970px;
-    z-index: 1;
-  }100%{
-    transform: scaleX(-1);
 
+  }35%{
+    background: url("../img/galineas1.png") -5px 0px no-repeat;
+    top:210px; /* 1120px */
+    left: 990px;
+    z-index: -1;
+  }40%{
+    background: url("../img/galineas1.png") -5px 0px no-repeat;
+    top:320px; /* 1120px */
+    left: 990px;
+    z-index: 1;
+
+  }45%{
+    background: url("../img/galineas1.png") -5px 0px no-repeat;
+    top:380px; /* 1120px */
+    left: 910px;
+    z-index: 1;
+
+  }50%{
+    background: url("../img/galineas1.png") -5px 0px no-repeat;
+    top:600px; /* 1120px */
+    left: 820px;
+    z-index: 1;
+
+  }55%{
+    background: url("../img/galineas1.png") -5px 0px no-repeat;
+    top:980px; /* 1120px */
+    left: 820px;
+    z-index: 1;
+
+  }60%{
+    background: url("../img/galineas1.png") -5px 0px no-repeat;
+    top:980px; /* 1120px */
+    left: 350px;
+    z-index: 1;
+
+  }65%{
+    background: url("../img/galineas1.png") -5px 0px no-repeat;
+    top:380px; /* 1120px */
+    left: 350px;
+    z-index: 1;
+
+  }100%{
+    background: url("../img/galineas1.png") -5px 0px no-repeat;
+    top:550px; /* 1120px */
+    left: 20px;
   }
 }
 
